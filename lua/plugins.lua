@@ -74,7 +74,8 @@ packer.startup({
     -- indent-blankline
     use("lukas-reineke/indent-blankline.nvim")
     --------------------- LSP --------------------
-    use({ "williamboman/nvim-lsp-installer", commit = "36b44679f7cc73968dbb3b09246798a19f7c14e0" })
+    -- use({ "williamboman/nvim-lsp-installer", commit = "36b44679f7cc73968dbb3b09246798a19f7c14e0" })
+    use({ "williamboman/nvim-lsp-installer" })
     -- Lspconfig
     use({ "neovim/nvim-lspconfig" })
     -- 补全引擎
@@ -157,7 +158,7 @@ packer.startup({
     -- use("jbyuki/one-small-step-for-vimkind")
 
     use("j-hui/fidget.nvim")
-    use("github/copilot.vim")
+    -- use("github/copilot.vim")
     --nvim-spectre
     use({ "nvim-pack/nvim-spectre", requires = { "nvim-lua/plenary.nvim", "BurntSushi/ripgrep" } })
     use({ "rmagatti/auto-session" })
